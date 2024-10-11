@@ -28,7 +28,7 @@ def discover_devices():
 
 def create_audio_file(message):
     with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3', dir=tempfile.gettempdir()) as fp:
-        tts = gTTS(text=message, lang='sv')
+        tts = gTTS(text=message, lang='en')
         tts.save(fp.name)
         return fp.name
 
@@ -61,7 +61,7 @@ def send_message_to_device(device_name, message):
 
         # Store the audio file path and set a timer to delete it after 60 seconds
         global audio_files
-        audio_files[audio_file] = threading.Timer(60.0, delete_audio_file, args=[audio_file])
+        audio_files[audio_file] = threading.Timer(3600.0, delete_audio_file, args=[audio_file])
         audio_files[audio_file].start()
 
         while mc.status.player_state != 'IDLE':

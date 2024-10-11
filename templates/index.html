@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meddelandeutskickning till högtalare</title>
+    <title>Message Broadcasting to Speakers</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <style>
         body {
@@ -94,12 +94,12 @@
 </head>
 
 <body>
-    <h1>Chromecast Message Sender</h1>
+    <h2>Message Sender for Chromecast and Nest Devices</h2>
 
     <form id="messageForm">
-        <textarea id="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br>
+        <textarea id="message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br>
         <div id="deviceList">
-            <p class="loading" id="loadingDevices">Loading devices...</p>
+            <p class="loading" id="loadingDevices">Loading available devices..</p>
         </div>
         <button type="submit" id="sendBtn" disabled>Send Message</button>
     </form>
@@ -127,13 +127,13 @@
                         `).join('');
                         sendBtn.disabled = false;
                     } else {
-                        deviceList.innerHTML = '<p>No devices found.</p>';
+                        deviceList.innerHTML = '<p>No devices available.</p>';
                         sendBtn.disabled = true;
                     }
                 })
                 .catch(error => {
                     console.error('Error fetching devices:', error);
-                    deviceList.innerHTML = '<p>Error fetching devices. Try again later.</p>';
+                    deviceList.innerHTML = '<p>Error retrieving devices. Please try again later.</p>';
                     sendBtn.disabled = true;
                 });
         }
@@ -150,7 +150,7 @@
             axios.post('/api/send_message', { message, devices: selectedDevices })
                 .then(response => {
                     alert('Message sent!');
-                    sendBtn.textContent = 'Send Message';
+                    sendBtn.textContent = 'Send Message to Device';
                     sendBtn.disabled = false;
                 })
                 .catch(error => {
@@ -167,14 +167,14 @@
 
             axios.post('/api/discover')
                 .then(response => {
-                    alert('Device discovery completed!');
+                    alert('Device discovery is complete!');
                     discoverBtn.textContent = 'Discover Devices';
                     discoverBtn.disabled = false;
                     updateDeviceList();
                 })
                 .catch(error => {
                     console.error('Error discovering devices:', error);
-                    discoverBtn.textContent = 'Discover Devices';
+                    discoverBtn.textContent = 'Discover Available Devices';
                     discoverBtn.disabled = false;
                 });
         });
