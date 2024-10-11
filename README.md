@@ -8,8 +8,27 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-NestCast is a Flask-based web application that allows you to send text-to-speech messages to Google Nest devices on your local network. This project is designed to run on a Raspberry Pi and provides a simple web interface for device discovery and message sending.
+Based on the provided information, here's a more accurate and comprehensive description of the NestCast project:
 
+NestCast is a Flask-based web application designed to run on a Raspberry Pi, enabling users to send text-to-speech messages to Chromecast-enabled devices on their local network without authentication. The application provides a simple web interface for device discovery and message sending, primarily targeting Google Nest devices with built-in Chromecast functionality.
+
+## Key Features
+
+- **Device Compatibility**: Works with a wide range of Google Nest devices, including smart displays and speakers such as Google Nest Hub, Nest Hub Max, and Nest Audio.
+- **Primary Focus**: Tested specifically with Google Nest Mini devices, but compatible with various Chromecast-enabled products.
+- **Tested Devices**: Verified functionality on Google Nest Mini (Gen 1) and Google Chromecast (Gen 2).
+- **Local Network Operation**: Designed to operate within the user's local network, leveraging Chromecast capabilities.
+- **Web Interface**: Offers an intuitive interface for device discovery and message sending.
+- **Text-to-Speech**: Converts user-input text into spoken messages on target devices.
+
+## Technical Details
+
+- **Framework**: Built using Flask, a lightweight Python web framework.
+- **Platform**: Optimized for deployment on Raspberry Pi.
+- **Authentication**: Operates without requiring user authentication, simplifying local network use.
+
+NestCast leverages the Chromecast functionality integrated into many Google Nest devices, allowing for seamless communication with a variety of smart home products. While it's particularly tested for Google Nest Mini devices, its compatibility extends to other Chromecast-enabled devices, making it a useful tool for local network audio messaging.
+_____
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5e0d208c-0c51-4b13-a973-c034ec8a24e2" alt="GUI" max-width="600">
 </p>
@@ -40,7 +59,7 @@ NestCast is a Flask-based web application that allows you to send text-to-speech
 - Flask 3.0.3 
 - pychromecast 14.0.4
 - gTTS 2.5.3
-- A local network with Google Nest devices
+- A local network with Chromecast devices, like Google Nests.
 
 ## Installation
 
