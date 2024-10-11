@@ -1,9 +1,9 @@
 # NestCast
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-[![Flask](https://img.shields.io/badge/Flask-2.2.5-green.svg)](https://flask.palletsprojects.com/en/2.2.x/)
-[![pychromecast](https://img.shields.io/badge/pychromecast-13.0.7-orange.svg)](https://github.com/home-assistant-libs/pychromecast)
-[![gTTS](https://img.shields.io/badge/gTTS-2.3.2-yellow.svg)](https://github.com/pndurette/gTTS)
+[![Flask](https://img.shields.io/badge/Flask-3.0.3-green.svg)](https://flask.palletsprojects.com/en/3.0.x/)
+[![pychromecast](https://img.shields.io/badge/pychromecast-14.0.4-orange.svg)](https://github.com/home-assistant-libs/pychromecast)
+[![gTTS](https://img.shields.io/badge/gTTS-2.5.3-yellow.svg)](https://github.com/pndurette/gTTS)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
