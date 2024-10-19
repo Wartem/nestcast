@@ -1,0 +1,206 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, input[type="text"], input[type="file"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #999;
+}
+
+.form-group {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+#volume {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 1rem;
+
+}
+
+
+
+#volume-label {
+    font-size: 1rem;
+}
+
+#volume-value {
+    font-size: 1rem;
+    color: #333;
+    margin-left: 10px;
+}
+
+#deviceList{
+    margin-top: 0rem; 
+    margin-bottom: 1rem;
+}
+
+.device-item{
+    margin-bottom: 1rem;
+}
+
+#deviceList p {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 10px;
+}
+
+#discoverBtn {
+    margin-top: 0rem;
+    padding: 0.6rem;
+    background-color: #28a745;
+    width: 100%;
+}
+
+#discoverBtn:hover {
+    background-color: #218838;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    form {
+        max-width: 500px;
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+}
+
+.device-item label {
+    font-size: 18px;
+  }
+  
+  .device-name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .device-ip {
+    font-size: 16px;
+  }
+
+  .device-item input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .device-item input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .device-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .device-item label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .device-name, .device-ip {
+    margin-left: 10px;
+  }
+
+  #streamUrl{
+    margin-top: 1rem;
+  }
+
+  #audioForm{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #audioForm > * {
+    margin-top: 1rem;
+  }
+
+  #language #sendBtn{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  #sendBtn{
+    margin-top: 1rem;
+  }
+
+  #message-group{
+    border-radius: 1rem;
+    background-color: rgb(185, 220, 253);
+  }
+
+  .device-list{
+    background-color: rgb(225, 229, 241);
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin: 0.5rem;
+    margin-top: 0;
+  }

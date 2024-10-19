@@ -1,0 +1,410 @@
+            <option value="en-GB-LibbyNeural">English (Female, United Kingdom)</option>
+            <option value="en-GB-RyanNeural">English (Male, United Kingdom)</option>
+
+            <option value="en-US-JennyNeural">English (Female, United States)</option>
+            <option value="en-US-GuyNeural">English (Male, United States)</option>
+            
+            <option value="en-AU-NatashaNeural">English (Female, Australia)</option>
+            <option value="en-AU-WilliamNeural">English (Male, Australia)</option>
+            
+            <option value="en-CA-ClaraNeural">English (Female, Canada)</option>
+            <option value="en-CA-LiamNeural">English (Male, Canada)</option>
+            
+            <option value="en-IN-NeerjaNeural">English (Female, India)</option>
+            <option value="en-IN-PrabhatNeural">English (Male, India)</option>
+
+            <option value="sv-SE-MattiasNeural">Swedish (Male, Sweden)</option>
+            <option value="sv-SE-SofieNeural">Swedish (Female, Sweden)</option>
+            
+            <option value="af-ZA-AdriNeural">Afrikaans (Female, South Africa)</option>
+            <option value="af-ZA-WillemNeural">Afrikaans (Male, South Africa)</option>
+            
+            <option value="sq-AL-AnilaNeural">Albanian (Female, Albania)</option>
+            <option value="sq-AL-IlirNeural">Albanian (Male, Albania)</option>
+            
+            <option value="am-ET-MekdesNeural">Amharic (Female, Ethiopia)</option>
+            <option value="am-ET-AmehaNeural">Amharic (Male, Ethiopia)</option>
+            
+            <option value="ar-DZ-AminaNeural">Arabic (Female, Algeria)</option>
+            <option value="ar-DZ-IsmaelNeural">Arabic (Male, Algeria)</option>
+            
+            <option value="ar-BH-LailaNeural">Arabic (Female, Bahrain)</option>
+            <option value="ar-BH-AliNeural">Arabic (Male, Bahrain)</option>
+            
+            <option value="ar-EG-SalmaNeural">Arabic (Female, Egypt)</option>
+            <option value="ar-EG-ShakirNeural">Arabic (Male, Egypt)</option>
+            
+            <option value="ar-IQ-RashaNeural">Arabic (Female, Iraq)</option>
+            <option value="ar-IQ-BasselNeural">Arabic (Male, Iraq)</option>
+            
+            <option value="ar-JO-TamaraNeural">Arabic (Female, Jordan)</option>
+            <option value="ar-JO-SamerNeural">Arabic (Male, Jordan)</option>
+            
+            <option value="ar-KW-NouraNeural">Arabic (Female, Kuwait)</option>
+            <option value="ar-KW-FarisNeural">Arabic (Male, Kuwait)</option>
+            
+            <option value="ar-LB-LaylaNeural">Arabic (Female, Lebanon)</option>
+            <option value="ar-LB-RamiNeural">Arabic (Male, Lebanon)</option>
+            
+            <option value="ar-LY-ImanNeural">Arabic (Female, Libya)</option>
+            <option value="ar-LY-OmarNeural">Arabic (Male, Libya)</option>
+            
+            <option value="ar-MA-MounaNeural">Arabic (Female, Morocco)</option>
+            <option value="ar-MA-JamalNeural">Arabic (Male, Morocco)</option>
+            
+            <option value="ar-OM-AyshaNeural">Arabic (Female, Oman)</option>
+            <option value="ar-OM-SultanNeural">Arabic (Male, Oman)</option>
+            
+            <option value="ar-QA-AmalNeural">Arabic (Female, Qatar)</option>
+            <option value="ar-QA-MoazNeural">Arabic (Male, Qatar)</option>
+            
+            <option value="ar-SA-ZariyahNeural">Arabic (Female, Saudi Arabia)</option>
+            <option value="ar-SA-HamedNeural">Arabic (Male, Saudi Arabia)</option>
+            
+            <option value="ar-SY-AmiraNeural">Arabic (Female, Syria)</option>
+            <option value="ar-SY-LaithNeural">Arabic (Male, Syria)</option>
+            
+            <option value="ar-TN-ReemNeural">Arabic (Female, Tunisia)</option>
+            <option value="ar-TN-HediNeural">Arabic (Male, Tunisia)</option>
+            
+            <option value="ar-AE-FatimaNeural">Arabic (Female, United Arab Emirates)</option>
+            <option value="ar-AE-HamdanNeural">Arabic (Male, United Arab Emirates)</option>
+            
+            <option value="ar-YE-MaryamNeural">Arabic (Female, Yemen)</option>
+            <option value="ar-YE-SalehNeural">Arabic (Male, Yemen)</option>
+            
+            <option value="hy-AM-NareNeural">Armenian (Female, Armenia)</option>
+            <option value="hy-AM-HaykNeural">Armenian (Male, Armenia)</option>
+            
+            <option value="az-AZ-BanuNeural">Azerbaijani (Female, Azerbaijan)</option>
+            <option value="az-AZ-BabekNeural">Azerbaijani (Male, Azerbaijan)</option>
+            
+            <option value="bn-BD-TanishaaNeural">Bengali (Female, Bangladesh)</option>
+            <option value="bn-BD-MirazNeural">Bengali (Male, Bangladesh)</option>
+            
+            <option value="bn-IN-BristiNeural">Bengali (Female, India)</option>
+            <option value="bn-IN-ShaanNeural">Bengali (Male, India)</option>
+            
+            <option value="bs-BA-VesnaNeural">Bosnian (Female, Bosnia and Herzegovina)</option>
+            <option value="bs-BA-GoranNeural">Bosnian (Male, Bosnia and Herzegovina)</option>
+            
+            <option value="bg-BG-KalinaNeural">Bulgarian (Female, Bulgaria)</option>
+            <option value="bg-BG-BorislavNeural">Bulgarian (Male, Bulgaria)</option>
+            
+            <option value="yue-HK-YanNeural">Cantonese (Female, Hong Kong)</option>
+            <option value="yue-HK-SiuNeural">Cantonese (Male, Hong Kong)</option>
+            
+            <option value="ca-ES-AlbaNeural">Catalan (Female, Spain)</option>
+            <option value="ca-ES-EnricNeural">Catalan (Male, Spain)</option>
+            
+            <option value="zh-CN-XiaoxiaoNeural">Chinese (Female, Mainland China)</option>
+            <option value="zh-CN-YunxiNeural">Chinese (Male, Mainland China)</option>
+            
+            <option value="zh-HK-HiuMaanNeural">Chinese (Female, Hong Kong)</option>
+            <option value="zh-HK-WanLungNeural">Chinese (Male, Hong Kong)</option>
+            
+            <option value="zh-TW-YatingNeural">Chinese (Female, Taiwan)</option>
+            <option value="zh-TW-HsiaoChenNeural">Chinese (Male, Taiwan)</option>
+            
+            <option value="hr-HR-GabrijelaNeural">Croatian (Female, Croatia)</option>
+            <option value="hr-HR-SreckoNeural">Croatian (Male, Croatia)</option>
+            
+            <option value="cs-CZ-VlastaNeural">Czech (Female, Czech Republic)</option>
+            <option value="cs-CZ-AntoninNeural">Czech (Male, Czech Republic)</option>
+            
+            <option value="da-DK-ChristelNeural">Danish (Female, Denmark)</option>
+            <option value="da-DK-JeppeNeural">Danish (Male, Denmark)</option>
+            
+            <option value="nl-BE-DenaNeural">Dutch (Female, Belgium)</option>
+            <option value="nl-BE-ArnaudNeural">Dutch (Male, Belgium)</option>
+            
+            <option value="nl-NL-ColetteNeural">Dutch (Female, Netherlands)</option>
+            <option value="nl-NL-MaartenNeural">Dutch (Male, Netherlands)</option>
+            
+            <option value="fil-PH-BlessicaNeural">Filipino (Female, Philippines)</option>
+            <option value="fil-PH-AngeloNeural">Filipino (Male, Philippines)</option>
+            
+            <option value="fi-FI-NooraNeural">Finnish (Female, Finland)</option>
+            <option value="fi-FI-SelmaNeural">Finnish (Male, Finland)</option>
+            
+            <option value="fr-BE-CharlineNeural">French (Female, Belgium)</option>
+            <option value="fr-BE-GerardNeural">French (Male, Belgium)</option>
+            
+            <option value="fr-CA-SylvieNeural">French (Female, Canada)</option>
+            <option value="fr-CA-AntoineNeural">French (Male, Canada)</option>
+            
+            <option value="fr-FR-DeniseNeural">French (Female, France)</option>
+            <option value="fr-FR-HenriNeural">French (Male, France)</option>
+            
+            <option value="fr-CH-ArianeNeural">French (Female, Switzerland)</option>
+            <option value="fr-CH-FabriceNeural">French (Male, Switzerland)</option>
+            
+            <option value="gl-ES-SabelaNeural">Galician (Female, Spain)</option>
+            <option value="gl-ES-XoanNeural">Galician (Male, Spain)</option>
+            
+            <option value="ka-GE-EkaNeural">Georgian (Female, Georgia)</option>
+            <option value="ka-GE-GiorgiNeural">Georgian (Male, Georgia)</option>
+            
+            <option value="de-AT-IngridNeural">German (Female, Austria)</option>
+            <option value="de-AT-JonasNeural">German (Male, Austria)</option>
+            
+            <option value="de-DE-KatjaNeural">German (Female, Germany)</option>
+            <option value="de-DE-ConradNeural">German (Male, Germany)</option>
+            
+            <option value="de-CH-LeniNeural">German (Female, Switzerland)</option>
+            <option value="de-CH-JanNeural">German (Male, Switzerland)</option>
+            
+            <option value="el-GR-AthinaNeural">Greek (Female, Greece)</option>
+            <option value="el-GR-NestorasNeural">Greek (Male, Greece)</option>
+            
+            <option value="gu-IN-DhwaniNeural">Gujarati (Female, India)</option>
+            <option value="gu-IN-NiranjanNeural">Gujarati (Male, India)</option>
+            
+            <option value="ha-NG-HauwaNeural">Hausa (Female, Nigeria)</option>
+            <option value="ha-NG-AdeolaNeural">Hausa (Male, Nigeria)</option>
+            
+            <option value="he-IL-HilaNeural">Hebrew (Female, Israel)</option>
+            <option value="he-IL-AvriNeural">Hebrew (Male, Israel)</option>
+            
+            <option value="hi-IN-SwaraNeural">Hindi (Female, India)</option>
+            <option value="hi-IN-MadhurNeural">Hindi (Male, India)</option>
+            
+            <option value="hu-HU-NoemiNeural">Hungarian (Female, Hungary)</option>
+            <option value="hu-HU-TamasNeural">Hungarian (Male, Hungary)</option>
+            
+            <option value="is-IS-GudrunNeural">Icelandic (Female, Iceland)</option>
+            <option value="is-IS-GunnarNeural">Icelandic (Male, Iceland)</option>
+            
+            <option value="ig-NG-PeaceNeural">Igbo (Female, Nigeria)</option>
+            <option value="ig-NG-AbaNeural">Igbo (Male, Nigeria)</option>
+            
+            <option value="id-ID-GadisNeural">Indonesian (Female, Indonesia)</option>
+            <option value="id-ID-ArdiNeural">Indonesian (Male, Indonesia)</option>
+            
+            <option value="ga-IE-OrlaNeural">Irish (Female, Ireland)</option>
+            <option value="ga-IE-ColmNeural">Irish (Male, Ireland)</option>
+            
+            <option value="it-IT-ElsaNeural">Italian (Female, Italy)</option>
+            <option value="it-IT-DiegoNeural">Italian (Male, Italy)</option>
+            
+            <option value="it-CH-GiadaNeural">Italian (Female, Switzerland)</option>
+            <option value="it-CH-CorradoNeural">Italian (Male, Switzerland)</option>
+            
+            <option value="ja-JP-NanamiNeural">Japanese (Female, Japan)</option>
+            <option value="ja-JP-KeitaNeural">Japanese (Male, Japan)</option>
+            
+            <option value="jv-ID-SitiNeural">Javanese (Female, Indonesia)</option>
+            <option value="jv-ID-DimasNeural">Javanese (Male, Indonesia)</option>
+            
+            <option value="kn-IN-SapnaNeural">Kannada (Female, India)</option>
+            <option value="kn-IN-GaganNeural">Kannada (Male, India)</option>
+            
+            <option value="kk-KZ-AigulNeural">Kazakh (Female, Kazakhstan)</option>
+            <option value="kk-KZ-DauletNeural">Kazakh (Male, Kazakhstan)</option>
+            
+            <option value="km-KH-SreymomNeural">Khmer (Female, Cambodia)</option>
+            <option value="km-KH-PisethNeural">Khmer (Male, Cambodia)</option>
+            
+            <option value="rw-RW-MerveilleNeural">Kinyarwanda (Female, Rwanda)</option>
+            <option value="rw-RW-DieudonneNeural">Kinyarwanda (Male, Rwanda)</option>
+            
+            <option value="ko-KR-SunHiNeural">Korean (Female, Korea)</option>
+            <option value="ko-KR-InJoonNeural">Korean (Male, Korea)</option>
+            
+            <option value="lo-LA-KeomanyNeural">Lao (Female, Laos)</option>
+            <option value="lo-LA-ChanthavongNeural">Lao (Male, Laos)</option>
+            
+            <option value="lv-LV-EveritaNeural">Latvian (Female, Latvia)</option>
+            <option value="lv-LV-NilsNeural">Latvian (Male, Latvia)</option>
+            
+            <option value="lt-LT-OnaNeural">Lithuanian (Female, Lithuania)</option>
+            <option value="lt-LT-LeonasNeural">Lithuanian (Male, Lithuania)</option>
+            
+            <option value="lb-LU-TanjaNeural">Luxembourgish (Female, Luxembourg)</option>
+            <option value="lb-LU-JeffNeural">Luxembourgish (Male, Luxembourg)</option>
+            
+            <option value="mk-MK-MarijaNeural">Macedonian (Female, Macedonia)</option>
+            <option value="mk-MK-AleksandarNeural">Macedonian (Male, Macedonia)</option>
+            
+            <option value="ms-MY-YasminNeural">Malay (Female, Malaysia)</option>
+            <option value="ms-MY-OsmanNeural">Malay (Male, Malaysia)</option>
+            
+            <option value="ml-IN-SobhaNeural">Malayalam (Female, India)</option>
+            <option value="ml-IN-MidhunNeural">Malayalam (Male, India)</option>
+            
+            <option value="mt-MT-GraceNeural">Maltese (Female, Malta)</option>
+            <option value="mt-MT-JosephNeural">Maltese (Male, Malta)</option>
+            
+            <option value="mi-NZ-MereNeural">Maori (Female, New Zealand)</option>
+            <option value="mi-NZ-NikoraNeural">Maori (Male, New Zealand)</option>
+            
+            <option value="mr-IN-AarohiNeural">Marathi (Female, India)</option>
+            <option value="mr-IN-ManoharNeural">Marathi (Male, India)</option>
+            
+            <option value="mn-MN-YesuiNeural">Mongolian (Female, Mongolia)</option>
+            <option value="mn-MN-BataaNeural">Mongolian (Male, Mongolia)</option>
+            
+            <option value="ne-NP-SagarNeural">Nepali (Female, Nepal)</option>
+            <option value="ne-NP-GauravNeural">Nepali (Male, Nepal)</option>
+            
+            <option value="nb-NO-IselinNeural">Norwegian (Female, Norway)</option>
+            <option value="nb-NO-FinnNeural">Norwegian (Male, Norway)</option>
+            
+            <option value="or-IN-MadhaviNeural">Odia (Female, India)</option>
+            <option value="or-IN-RobinNeural">Odia (Male, India)</option>
+            
+            <option value="ps-AF-GhataNeural">Pashto (Female, Afghanistan)</option>
+            <option value="ps-AF-ZarifNeural">Pashto (Male, Afghanistan)</option>
+            
+            <option value="fa-IR-DilaraNeural">Persian (Female, Iran)</option>
+            <option value="fa-IR-MiladNeural">Persian (Male, Iran)</option>
+            
+            <option value="pl-PL-ZofiaNeural">Polish (Female, Poland)</option>
+            <option value="pl-PL-MarekNeural">Polish (Male, Poland)</option>
+            
+            <option value="pt-BR-FranciscaNeural">Portuguese (Female, Brazil)</option>
+            <option value="pt-BR-AntonioNeural">Portuguese (Male, Brazil)</option>
+            
+            <option value="pt-PT-FernandaNeural">Portuguese (Female, Portugal)</option>
+            <option value="pt-PT-RaquelNeural">Portuguese (Male, Portugal)</option>
+            
+            <option value="pa-IN-GaganNeural">Punjabi (Female, India)</option>
+            <option value="pa-IN-KuldeepNeural">Punjabi (Male, India)</option>
+            
+            <option value="quz-PE-CarmenNeural">Quechua (Female, Peru)</option>
+            <option value="quz-PE-CiprianoNeural">Quechua (Male, Peru)</option>
+            
+            <option value="ro-RO-AlinaNeural">Romanian (Female, Romania)</option>
+            <option value="ro-RO-EmilNeural">Romanian (Male, Romania)</option>
+            
+            <option value="ru-RU-DariyaNeural">Russian (Female, Russia)</option>
+            <option value="ru-RU-DmitryNeural">Russian (Male, Russia)</option>
+            
+            <option value="sm-SM-FiaNeural">Samoan (Female, Samoa)</option>
+            <option value="sm-SM-NikoNeural">Samoan (Male, Samoa)</option>
+            
+            <option value="sr-RS-SanjaNeural">Serbian (Female, Serbia)</option>
+            <option value="sr-RS-NikolaNeural">Serbian (Male, Serbia)</option>
+            
+            <option value="sk-SK-ViktoriaNeural">Slovak (Female, Slovakia)</option>
+            <option value="sk-SK-LukasNeural">Slovak (Male, Slovakia)</option>
+            
+            <option value="sl-SI-PetraNeural">Slovenian (Female, Slovenia)</option>
+            <option value="sl-SI-RokNeural">Slovenian (Male, Slovenia)</option>
+            
+            <option value="so-SO-UbaxNeural">Somali (Female, Somalia)</option>
+            <option value="so-SO-MuuseNeural">Somali (Male, Somalia)</option>
+            
+            <option value="es-AR-ElenaNeural">Spanish (Female, Argentina)</option>
+            <option value="es-AR-TomasNeural">Spanish (Male, Argentina)</option>
+            
+            <option value="es-BO-SofiaNeural">Spanish (Female, Bolivia)</option>
+            <option value="es-BO-MarceloNeural">Spanish (Male, Bolivia)</option>
+            
+            <option value="es-CL-CatalinaNeural">Spanish (Female, Chile)</option>
+            <option value="es-CL-LorenzoNeural">Spanish (Male, Chile)</option>
+            
+            <option value="es-CO-GonzaloNeural">Spanish (Male, Colombia)</option>
+            <option value="es-CO-SalomeNeural">Spanish (Female, Colombia)</option>
+            
+            <option value="es-CR-JuanNeural">Spanish (Male, Costa Rica)</option>
+            <option value="es-CR-MariaNeural">Spanish (Female, Costa Rica)</option>
+            
+            <option value="es-CU-BelindaNeural">Spanish (Female, Cuba)</option>
+            <option value="es-CU-ManuelNeural">Spanish (Male, Cuba)</option>
+            
+            <option value="es-DO-RamonaNeural">Spanish (Female, Dominican Republic)</option>
+            <option value="es-DO-PedroNeural">Spanish (Male, Dominican Republic)</option>
+            
+            <option value="es-EC-AndreaNeural">Spanish (Female, Ecuador)</option>
+            <option value="es-EC-LuisNeural">Spanish (Male, Ecuador)</option>
+            
+            <option value="es-SV-LorenaNeural">Spanish (Female, El Salvador)</option>
+            <option value="es-SV-RodrigoNeural">Spanish (Male, El Salvador)</option>
+            
+            <option value="es-GQ-TeresaNeural">Spanish (Female, Equatorial Guinea)</option>
+            <option value="es-GQ-JavierNeural">Spanish (Male, Equatorial Guinea)</option>
+            
+            <option value="es-GT-MartaNeural">Spanish (Female, Guatemala)</option>
+            <option value="es-GT-AndresNeural">Spanish (Male, Guatemala)</option>
+            
+            <option value="es-HN-KarlaNeural">Spanish (Female, Honduras)</option>
+            <option value="es-HN-CarlosNeural">Spanish (Male, Honduras)</option>
+            
+            <option value="es-MX-DaliaNeural">Spanish (Female, Mexico)</option>
+            <option value="es-MX-JorgeNeural">Spanish (Male, Mexico)</option>
+            
+            <option value="es-NI-FedericaNeural">Spanish (Female, Nicaragua)</option>
+            <option value="es-NI-LeonardoNeural">Spanish (Male, Nicaragua)</option>
+            
+            <option value="es-PA-MargaritaNeural">Spanish (Female, Panama)</option>
+            <option value="es-PA-RobertoNeural">Spanish (Male, Panama)</option>
+            
+            <option value="es-PY-TaniaNeural">Spanish (Female, Paraguay)</option>
+            <option value="es-PY-MarioNeural">Spanish (Male, Paraguay)</option>
+            
+            <option value="es-PE-CamilaNeural">Spanish (Female, Peru)</option>
+            <option value="es-PE-AlexNeural">Spanish (Male, Peru)</option>
+            
+            <option value="es-PR-KarinaNeural">Spanish (Female, Puerto Rico)</option>
+            <option value="es-PR-VictorNeural">Spanish (Male, Puerto Rico)</option>
+            
+            <option value="es-ES-ElviraNeural">Spanish (Female, Spain)</option>
+            <option value="es-ES-AlvaroNeural">Spanish (Male, Spain)</option>
+            
+            <option value="es-UY-MateoNeural">Spanish (Male, Uruguay)</option>
+            <option value="es-UY-ValentinaNeural">Spanish (Female, Uruguay)</option>
+            
+            <option value="es-US-JennyNeural">Spanish (Female, United States)</option>
+            <option value="es-US-AlonsoNeural">Spanish (Male, United States)</option>
+            
+            <option value="es-VE-PaolaNeural">Spanish (Female, Venezuela)</option>
+            <option value="es-VE-SalvadorNeural">Spanish (Male, Venezuela)</option>
+            
+            <option value="sw-TZ-ZuriNeural">Swahili (Female, Tanzania)</option>
+            <option value="sw-TZ-DaudiNeural">Swahili (Male, Tanzania)</option>
+            
+            <option value="sw-KE-ChangNeural">Swahili (Female, Kenya)</option>
+            <option value="sw-KE-RafikiNeural">Swahili (Male, Kenya)</option>
+            
+            <option value="sv-SE-SofieNeural">Swedish (Female, Sweden)</option>
+            <option value="sv-SE-MattiasNeural">Swedish (Male, Sweden)</option>
+            
+            <option value="ta-IN-PallaviNeural">Tamil (Female, India)</option>
+            <option value="ta-IN-ValluvarNeural">Tamil (Male, India)</option>
+            
+            <option value="ta-LK-KumarNeural">Tamil (Male, Sri Lanka)</option>
+            <option value="ta-LK-SaranyaNeural">Tamil (Female, Sri Lanka)</option>
+            
+            <option value="ta-MY-KannanNeural">Tamil (Male, Malaysia)</option>
+            <option value="ta-MY-RevathiNeural">Tamil (Female, Malaysia)</option>
+            
+            <option value="te-IN-ShrutiNeural">Telugu (Female, India)</option>
+            <option value="te-IN-MohanNeural">Telugu (Male, India)</option>
+            
+            <option value="th-TH-AcharaNeural">Thai (Female, Thailand)</option>
+            <option value="th-TH-NiwatNeural">Thai (Male, Thailand)</option>
+            
+            <option value="tr-TR-EmelNeural">Turkish (Female, Turkey)</option>
+            <option value="tr-TR-AhmetNeural">Turkish (Male, Turkey)</option>
+            
+            <option value="uk-UA-PolinaNeural">Ukrainian (Female, Ukraine)</option>
+            <option value="uk-UA-OstapNeural">Ukrainian (Male, Ukraine)</option>
+            
+            <option value="ur-IN-GulNeural">Urdu (Female, India)</option>
+            <option value="ur-IN-SalmanNeural">Urdu (Male, India)</option>
+            
+            <option value="ur-PK-AsadNeural">Urdu (Male, Pakistan)</option>
+            <option value="ur-PK-UzmaNeural">Urdu (Female, Pakistan)</option>
+            
+            <option value="uz-UZ-MadinaNeural">Uzbek (Female, Uzbekistan)</option>
+            <option value="uz-UZ-SardorNeural">Uzbek (Male, Uzbekistan)</option>
+            
+            <option value="vi-VN-HoaiMyNeural">Vietnamese (Female, Vietnam)</option>
+            <option value="vi-VN-NamMinhNeural">Vietnamese (Male, Vietnam)</option>
+            
+            <option value="cy-GB-NiaNeural">Welsh (Female, United Kingdom)</option>
+            <option value="cy-GB-AledNeural">Welsh (Male, United Kingdom)</option>
+            
+            <option value="yo-NG-EniolaNeural">Yoruba (Female, Nigeria)</option>
+            <option value="yo-NG-KayodeNeural">Yoruba (Male, Nigeria)</option>

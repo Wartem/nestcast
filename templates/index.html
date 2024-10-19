@@ -4,184 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message Broadcasting to Speakers</title>
+    <title>Media Broadcasting to Speakers</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f4f8;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-
-        textarea {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            resize: none;
-        }
-
-        button {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        button:disabled {
-            background-color: #999;
-        }
-
-        #deviceList div {
-            margin-bottom: 10px;
-        }
-
-        #sendBtn{
-            margin-top: 1rem;
-        }
-
-        label {
-            font-size: 14px;
-            margin-left: 8px;
-            color: #333;
-        }
-
-        .loading {
-            font-size: 14px;
-            color: #999;
-            margin-top: 10px;
-        }
-
-        #discoverBtn {
-            margin-top: 10px;
-            background-color: #28a745;
-        }
-
-        #discoverBtn:hover {
-            background-color: #218838;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-    <h2>Message Sender for Chromecast and Nest Devices</h2>
+    <h1>Media Sender to Chromecast and Nest Devices</h1>
 
-    <form id="messageForm">
-        <textarea id="message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br>
+    <form id="audioForm">
+
         <div id="deviceList">
             <p class="loading" id="loadingDevices">Loading available devices..</p>
         </div>
+
+        <button id="discoverBtn" type="button">Discover Devices</button>
+
+        <div class="form-group">
+            <label id="volume-label" for="volume">Volume:</label>
+            <input type="range" id="volume" min="0" max="100" value="50">
+            <span id="volume-value">50%</span>
+        </div>
+
+        <div id="message-group">
+        <textarea id="message" rows="4" placeholder="Type your message here..."></textarea>
+        
+        <select id="language"></select>
+
         <button type="submit" id="sendBtn" disabled>Send Message</button>
+
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="streamUrl" placeholder="Enter streaming URL">
+            <button type="button" id="streamBtn">Stream Media</button>
+        </div>
+
+        <div class="form-group">
+            <input type="file" id="audioFile" accept="audio/*">
+            <button type="button" id="playAudioBtn">Play Audio</button>
+        </div>
+
+        <!-- Pause and Stop gives:
+             STOP command requested but no session is active. -->
+
+        <div style="visibility: hidden; display: none;" class="form-group">
+            <button type="button" id="pauseAllBtn">Pause</button>
+            <button type="button" id="stopAllBtn">Stop</button>
+        </div>
     </form>
 
-    <button id="discoverBtn">Discover Devices</button>
-
-    <script>
-        const deviceList = document.getElementById('deviceList');
-        const messageForm = document.getElementById('messageForm');
-        const discoverBtn = document.getElementById('discoverBtn');
-        const sendBtn = document.getElementById('sendBtn');
-        const loadingDevices = document.getElementById('loadingDevices');
-
-        function updateDeviceList() {
-            loadingDevices.style.display = 'block';
-            axios.get('/api/devices')
-                .then(response => {
-                    loadingDevices.style.display = 'none';
-                    if (response.data.length > 0) {
-                        deviceList.innerHTML = response.data.map(device => `
-                            <div>
-                                <input type="checkbox" name="devices" value="${device.name}" id="${device.name}">
-                                <label for="${device.name}">${device.name} (${device.ip})</label>
-                            </div>
-                        `).join('');
-                        sendBtn.disabled = false;
-                    } else {
-                        deviceList.innerHTML = '<p>No devices available.</p>';
-                        sendBtn.disabled = true;
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching devices:', error);
-                    deviceList.innerHTML = '<p>Error retrieving devices. Please try again later.</p>';
-                    sendBtn.disabled = true;
-                });
-        }
-
-        messageForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            sendBtn.textContent = 'Sending...';
-            sendBtn.disabled = true;
-
-            const message = document.getElementById('message').value;
-            const selectedDevices = Array.from(document.querySelectorAll('input[name="devices"]:checked'))
-                .map(input => input.value);
-
-            axios.post('/api/send_message', { message, devices: selectedDevices })
-                .then(response => {
-                    alert('Message sent!');
-                    sendBtn.textContent = 'Send Message to Device';
-                    sendBtn.disabled = false;
-                })
-                .catch(error => {
-                    console.error('Error sending message:', error);
-                    alert('Failed to send message.');
-                    sendBtn.textContent = 'Send Message';
-                    sendBtn.disabled = false;
-                });
-        });
-
-        discoverBtn.addEventListener('click', function () {
-            discoverBtn.textContent = 'Discovering...';
-            discoverBtn.disabled = true;
-
-            axios.post('/api/discover')
-                .then(response => {
-                    alert('Device discovery is complete!');
-                    discoverBtn.textContent = 'Discover Devices';
-                    discoverBtn.disabled = false;
-                    updateDeviceList();
-                })
-                .catch(error => {
-                    console.error('Error discovering devices:', error);
-                    discoverBtn.textContent = 'Discover Available Devices';
-                    discoverBtn.disabled = false;
-                });
-        });
-
-        // Initialize device list on page load
-        updateDeviceList();
-    </script>
+    <footer>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </footer>
 </body>
 
 </html>

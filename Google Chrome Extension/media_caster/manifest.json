@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Media Chromecaster",
+  "version": "1.0",
+  "description": "Cast media (images, videos, audio) to Chromecast devices",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://192.168.68.201:5030/",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+  }
+}
