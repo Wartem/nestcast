@@ -20,6 +20,7 @@ NestCast is a Flask-based web application designed to run on a Raspberry Pi, ena
 - **Local Network Operation**: Designed to operate within the user's local network, leveraging Chromecast capabilities.
 - **Web Interface**: Offers an intuitive interface for device discovery and message sending.
 - **Text-to-Speech**: Converts user-input text into spoken messages on target devices.
+- **Media streaming from URL and audio play from file.**: Offers casting of images, audio and video to screens with chromecast and audio from file to speakers.
 
 ## Technical Details
 
@@ -51,6 +52,7 @@ _____
 - Text-to-speech conversion using gTTS (Google Text-to-Speech)
 - RESTful API for programmatic access
 - Background device discovery to keep the device list up-to-date
+- Media streaming from URL and audio play from file
 
 ## Requirements
 
@@ -128,6 +130,9 @@ The application uses Python's threading module to handle background tasks such a
 - `GET /api/devices`: Returns a list of discovered devices
 - `POST /api/send_message`: Sends a message to selected devices
 - `POST /api/discover`: Manually triggers device discovery
+- `GET /audio/<filename>`: Retrieves audio file by filename
+- `POST /api/play_audio`: Initiates playback of audio on selected devices
+- `POST /api/stream_media`: Starts streaming media to selected devices
 
 ## Troubleshooting
 
