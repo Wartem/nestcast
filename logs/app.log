@@ -1,10 +1,1 @@
-2024-10-19 08:52:57,081 - app - INFO - Received request to /api/send_message
-2024-10-19 08:52:57,088 - app - INFO - {"message": "hejsan", "language": "en-GB-RyanNeural", "volume": "0.5", "devices": "[\"M\u00e5rtens rum\"]"}
-2024-10-19 08:52:57,089 - app - INFO - Message: hejsan, Volume: 0.5 Language: en-GB-RyanNeural, Devices: ['Mårtens rum']
-2024-10-19 08:52:57,090 - app - INFO - Attempting to send message to Mårtens rum
-2024-10-19 08:52:57,934 - app - INFO - Message sent successfully to Mårtens rum
-2024-10-19 08:53:05,787 - app - INFO - Received request to /api/send_message
-2024-10-19 08:53:05,793 - app - INFO - {"message": "herrlow", "language": "en-GB-RyanNeural", "volume": "0.5", "devices": "[\"M\u00e5rtens rum\"]"}
-2024-10-19 08:53:05,794 - app - INFO - Message: herrlow, Volume: 0.5 Language: en-GB-RyanNeural, Devices: ['Mårtens rum']
-2024-10-19 08:53:05,794 - app - INFO - Attempting to send message to Mårtens rum
-2024-10-19 08:53:07,540 - app - INFO - Message sent successfully to Mårtens rum
+

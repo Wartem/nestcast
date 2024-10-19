@@ -1,18 +1,1 @@
-2024-10-19 08:52:57,090 - chromecast - INFO - Sending message to Mårtens rum in language en-GB-RyanNeural with volume 0.5
-2024-10-19 08:52:57,092 - chromecast - INFO - Local IP: 192.168.68.201
-2024-10-19 08:52:57,240 - chromecast - INFO - Connected to device Mårtens rum
-2024-10-19 08:52:57,753 - chromecast - INFO - Created audio file: /tmp/tmpwijwpvin.mp3
-2024-10-19 08:52:57,760 - chromecast - INFO - Set volume to 0.5
-2024-10-19 08:52:57,761 - chromecast - INFO - Audio URL: http://192.168.68.201:5030/audio/tmpwijwpvin.mp3
-2024-10-19 08:52:57,933 - chromecast - INFO - Started playing audio on Mårtens rum
-2024-10-19 08:52:57,934 - chromecast - INFO - Message sent successfully to Mårtens rum
-2024-10-19 08:53:05,795 - chromecast - INFO - Sending message to Mårtens rum in language en-GB-RyanNeural with volume 0.5
-2024-10-19 08:53:05,795 - chromecast - INFO - Local IP: 192.168.68.201
-2024-10-19 08:53:05,983 - chromecast - INFO - Connected to device Mårtens rum
-2024-10-19 08:53:06,517 - chromecast - INFO - Created audio file: /tmp/tmp10jvv8ie.mp3
-2024-10-19 08:53:07,524 - chromecast - INFO - Set volume to 0.5
-2024-10-19 08:53:07,525 - chromecast - INFO - Audio URL: http://192.168.68.201:5030/audio/tmp10jvv8ie.mp3
-2024-10-19 08:53:07,540 - chromecast - INFO - Started playing audio on Mårtens rum
-2024-10-19 08:53:07,540 - chromecast - INFO - Message sent successfully to Mårtens rum
-2024-10-19 09:52:57,935 - chromecast - ERROR - Error deleting audio file /tmp/tmpwijwpvin.mp3: name 'audio_files' is not defined
-2024-10-19 09:53:07,541 - chromecast - ERROR - Error deleting audio file /tmp/tmp10jvv8ie.mp3: name 'audio_files' is not defined
+
