@@ -113,7 +113,7 @@ def determine_content_type(url):
     # Check for known extensions in the path
     for ext, mime_type in mime_types.items():
         if path.endswith(f'.{ext}'):
-            app_logger.info(f"Determined content type from path: {mime_type} for URL: {url}")
+            app_logger.info(f"Determined content type from path: audio/{mime_type} for URL: {url}")
             return url, mime_type
 
     # If no extension found in path, try HEAD request
@@ -289,6 +289,25 @@ def play_audio():
         app_logger.error(error_str)
         return jsonify({"status": "Error", "message": error_str}), 400
 
+    # Check file extension and set appropriate MIME type
+    file_extension = os.path.splitext(audio_file.filename)[1].lower()
+    mime_types = {
+        '.mp3': 'audio/mp3',
+        '.wav': 'audio/wav',
+        '.ogg': 'audio/ogg',
+        '.flac': 'audio/flac',
+        '.aac': 'audio/aac',
+        '.m4a': 'audio/mp4',
+        '.wma': 'audio/x-ms-wma'
+    }
+    
+    if file_extension not in mime_types:
+        error_str = f"Unsupported audio format: {file_extension}"
+        app_logger.error(error_str)
+        return jsonify({"status": "Error", "message": error_str}), 400
+
+    mime_type = mime_types[file_extension]
+
     # Save the file temporarily
     temp_dir = tempfile.gettempdir()
     filename = os.path.join(temp_dir, audio_file.filename)
@@ -317,7 +336,7 @@ def play_audio():
             # Play the audio file
             local_ip = get_local_ip()
             chromecast.set_volume(volume)
-            mc.play_media(f'http://{local_ip}:{PORT}/audio/{os.path.basename(filename)}', 'audio/mp3')
+            mc.play_media(f'http://{local_ip}:{PORT}/audio/{os.path.basename(filename)}', f"audio/{mime_type}")
             mc.block_until_active()
 
             results.append({"device": device_name, "status": "Audio playback started"})
