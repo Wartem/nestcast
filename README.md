@@ -31,7 +31,8 @@ NestCast is a Flask-based web application designed to run on a Raspberry Pi, ena
 NestCast leverages the Chromecast functionality integrated into many Google Nest devices, allowing for seamless communication with a variety of smart home products. While it's particularly tested for Google Nest Mini devices, its compatibility extends to other Chromecast-enabled devices, making it a useful tool for local network audio messaging.
 _____
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5e0d208c-0c51-4b13-a973-c034ec8a24e2" alt="GUI" max-width="600">
+  <img src="https://github.com/user-attachments/assets/90e337bb-31bc-448e-9086-851e86db30db" alt="GUI" max-width="600">
+
 </p>
 
 ## Table of Contents
