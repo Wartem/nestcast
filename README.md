@@ -8,7 +8,13 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-NestCast is a Flask-based web application designed to run on a Raspberry Pi, enabling users to send text-to-speech messages, stream media, and control audio playback on Chromecast-enabled devices within their local network. The application provides a simple web interface for device discovery and message sending, primarily targeting Google Nest devices with built-in Chromecast functionality.
+NestCast is a Flask-based web application using pychromecast and edge-tts. It is designed to run on a Raspberry Pi, enabling users to send text-to-speech messages, stream media, and control audio playback on Chromecast-enabled devices within their local network. The application provides a simple web interface for device discovery and message sending, primarily targeting Google Nest devices with built-in Chromecast functionality. Other scripts and applications like Google Chrome extentions running on the LAN can access the endpoints making this project suitable to run on a Raspberry Pi server. Do not open this up to the Internet.
+
+it's crucial not to expose this setup directly to the internet without implementing proper security measures. Keeping it as a LAN-only service is a good starting point for maintaining security.
+
+**Warning**: Do not deploy this project in its current state to any production environment or expose it to untrusted networks. It is intended for development and testing purposes only within a controlled, private network environment. The user must own and control the network on which this project is deployed. The developers of this project do not take any responsibility for misuse or unauthorized access resulting from improper deployment or security practices.
+
+--------------
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/90e337bb-31bc-448e-9086-851e86db30db" alt="GUI" max-width="600">
@@ -452,12 +458,32 @@ nestcast/
 - `POST /api/pause_audio`: Pauses audio playback on selected devices (Not yet available)
 - `POST /api/stop_audio`: Stops audio playback on selected devices (Not yet available)
 
+Note that for simplification and ease of use there is not yet any authentication for accessing the endpoints. HTTPS might also be added later for encrypted communication.
+
 ## Google Chrome Extension
 
 NestCast includes a Google Chrome extension that needs to be customized for your environment. You'll need to manually adjust strings like IP address and port to match your setup.
 
 Chrome Extension Screenshot:
 ![Chrome Extension](https://github.com/user-attachments/assets/d2f66809-c4fa-4303-96bc-4961eaf6375d)
+
+## Security and Warning
+
+This project is currently in a simplified state for ease of use and development. Please be aware of the following security considerations:
+
+1. **No Authentication**: There is not yet any authentication implemented for accessing the endpoints. This means anyone with access to the server can interact with the API.
+
+2. **No HTTPS**: The current implementation does not use HTTPS for encrypted communication. This may be added in future updates to enhance security.
+
+3. **Local Use Only**: Due to these security limitations, it is strongly recommended to use this project only on a local area network (LAN) and not expose it to the public internet.
+
+4. **Potential Vulnerabilities**: Without proper authentication and encryption, the system may be vulnerable to unauthorized access and data interception.
+
+5. **Future Improvements**: Authentication mechanisms and HTTPS support are planned for future updates to improve the security of this project.
+
+**Warning**: Do not deploy this project in its current state to any production environment or expose it to untrusted networks. It is intended for development and testing purposes only within a controlled, private network environment. The user must own and control the network on which this project is deployed. The developers of this project do not take any responsibility for misuse or unauthorized access resulting from improper deployment or security practices.
+
+By using this project, you acknowledge that you understand the security risks involved and accept full responsibility for its deployment and use. It is your responsibility to ensure that the project is used in compliance with all applicable laws and regulations.
 
 ## Troubleshooting
 
