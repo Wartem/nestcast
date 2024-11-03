@@ -16,4 +16,5 @@ requests==2.32.3
 urllib3==2.2.3
 Werkzeug==3.0.4
 zeroconf==0.135.0
+
 edge_tts
