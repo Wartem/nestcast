@@ -12,7 +12,7 @@ NestCast is a Flask-based web application using pychromecast and edge-tts. It is
 
 it's crucial not to expose this setup directly to the internet without implementing proper security measures. Keeping it as a LAN-only service is a good starting point for maintaining security.
 
-**Warning**: Do not deploy this project in its current state to any production environment or expose it to untrusted networks. It is intended for development and testing purposes only within a controlled, private network environment. The user must own and control the network on which this project is deployed. The developers of this project do not take any responsibility for misuse or unauthorized access resulting from improper deployment or security practices.
+**Note:** NestCast is based on PyChromecast and is designed for use on local, secured networks. Users should ensure they have appropriate network security measures in place and follow best practices when deploying this application. As with any network-connected application, use caution and common sense to protect your devices and data.
 
 --------------
 
@@ -467,23 +467,22 @@ NestCast includes a Google Chrome extension that needs to be customized for your
 Chrome Extension Screenshot:
 ![Chrome Extension](https://github.com/user-attachments/assets/d2f66809-c4fa-4303-96bc-4961eaf6375d)
 
-## Security and Warning
+## Security Considerations
 
-This project is currently in a simplified state for ease of use and development. Please be aware of the following security considerations:
+NestCast is designed for use on local, private networks. Please keep the following in mind:
 
-1. **No Authentication**: There is not yet any authentication implemented for accessing the endpoints. This means anyone with access to the server can interact with the API.
+1. **Network**: Use only on secured, private networks you control.
 
-2. **No HTTPS**: The current implementation does not use HTTPS for encrypted communication. This may be added in future updates to enhance security.
+2. **Access**: By default, there's no user authentication. Add access controls if needed.
 
-3. **Local Use Only**: Due to these security limitations, it is strongly recommended to use this project only on a local area network (LAN) and not expose it to the public internet.
+3. **Updates**: Keep NestCast and its dependencies current for best security.
 
-4. **Potential Vulnerabilities**: Without proper authentication and encryption, the system may be vulnerable to unauthorized access and data interception.
+4. **Usage**: Ensure your use complies with local laws and respects others' privacy.
 
-5. **Future Improvements**: Authentication mechanisms and HTTPS support are planned for future updates to improve the security of this project.
+5. **Customization**: For use in open environments, consider adding authentication and HTTPS.
 
-**Warning**: Do not deploy this project in its current state to any production environment or expose it to untrusted networks. It is intended for development and testing purposes only within a controlled, private network environment. The user must own and control the network on which this project is deployed. The developers of this project do not take any responsibility for misuse or unauthorized access resulting from improper deployment or security practices.
+This project is based on PyChromecast and inherits its security model. Use common sense when deploying network-connected applications to protect your devices and data.
 
-By using this project, you acknowledge that you understand the security risks involved and accept full responsibility for its deployment and use. It is your responsibility to ensure that the project is used in compliance with all applicable laws and regulations.
 
 ## Troubleshooting
 
